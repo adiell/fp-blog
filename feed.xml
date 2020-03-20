@@ -1,176 +1,179 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://adiell.github.io/fptest/feed.xml" rel="self" type="application/atom+xml" /><link href="https://adiell.github.io/fptest/" rel="alternate" type="text/html" /><updated>2020-03-20T02:52:42-05:00</updated><id>https://adiell.github.io/fptest/feed.xml</id><title type="html">Adiels pages</title><subtitle>Playground.</subtitle><entry><title type="html">Jup Post</title><link href="https://adiell.github.io/fptest/2020/03/20/jup-post.ipynb" rel="alternate" type="text/html" title="Jup Post" /><published>2020-03-20T00:00:00-05:00</published><updated>2020-03-20T00:00:00-05:00</updated><id>https://adiell.github.io/fptest/2020/03/20/jup-post</id><content type="html" xml:base="https://adiell.github.io/fptest/2020/03/20/jup-post.ipynb">{
- &quot;cells&quot;: [
-  {
-   &quot;cell_type&quot;: &quot;markdown&quot;,
-   &quot;metadata&quot;: {},
-   &quot;source&quot;: [
-    &quot;# \&quot;Title\&quot;\n&quot;,
-    &quot;&gt; \&quot;Interesting stuff\&quot;\n&quot;,
-    &quot;- toc: true\n&quot;,
-    &quot;- branch: master\n&quot;,
-    &quot;- badges: true\n&quot;,
-    &quot;- comments: true\n&quot;,
-    &quot;- categories: [search, forecast]\n&quot;,
-    &quot;- search_exclude: true\n&quot;,
-    &quot;- metadata_key1: metadata_value1\n&quot;,
-    &quot;- metadata_key2: metadata_value2&quot;
-   ]
-  },
-  {
-   &quot;cell_type&quot;: &quot;code&quot;,
-   &quot;execution_count&quot;: 6,
-   &quot;metadata&quot;: {},
-   &quot;outputs&quot;: [],
-   &quot;source&quot;: [
-    &quot;import pandas as pd\n&quot;,
-    &quot;#matplotlib inline&quot;
-   ]
-  },
-  {
-   &quot;cell_type&quot;: &quot;code&quot;,
-   &quot;execution_count&quot;: 7,
-   &quot;metadata&quot;: {},
-   &quot;outputs&quot;: [],
-   &quot;source&quot;: [
-    &quot;df = pd.DataFrame({'Name': [\&quot;Andrew\&quot;, \&quot;Bob\&quot;, \&quot;Gilmor\&quot;],\n&quot;,
-    &quot;                  \&quot;Age\&quot;: [30, 40, 23]})&quot;
-   ]
-  },
-  {
-   &quot;cell_type&quot;: &quot;code&quot;,
-   &quot;execution_count&quot;: 8,
-   &quot;metadata&quot;: {},
-   &quot;outputs&quot;: [
-    {
-     &quot;data&quot;: {
-      &quot;text/html&quot;: [
-       &quot;&lt;div&gt;\n&quot;,
-       &quot;&lt;style scoped&gt;\n&quot;,
-       &quot;    .dataframe tbody tr th:only-of-type {\n&quot;,
-       &quot;        vertical-align: middle;\n&quot;,
-       &quot;    }\n&quot;,
-       &quot;\n&quot;,
-       &quot;    .dataframe tbody tr th {\n&quot;,
-       &quot;        vertical-align: top;\n&quot;,
-       &quot;    }\n&quot;,
-       &quot;\n&quot;,
-       &quot;    .dataframe thead th {\n&quot;,
-       &quot;        text-align: right;\n&quot;,
-       &quot;    }\n&quot;,
-       &quot;&lt;/style&gt;\n&quot;,
-       &quot;&lt;table border=\&quot;1\&quot; class=\&quot;dataframe\&quot;&gt;\n&quot;,
-       &quot;  &lt;thead&gt;\n&quot;,
-       &quot;    &lt;tr style=\&quot;text-align: right;\&quot;&gt;\n&quot;,
-       &quot;      &lt;th&gt;&lt;/th&gt;\n&quot;,
-       &quot;      &lt;th&gt;Name&lt;/th&gt;\n&quot;,
-       &quot;      &lt;th&gt;Age&lt;/th&gt;\n&quot;,
-       &quot;    &lt;/tr&gt;\n&quot;,
-       &quot;  &lt;/thead&gt;\n&quot;,
-       &quot;  &lt;tbody&gt;\n&quot;,
-       &quot;    &lt;tr&gt;\n&quot;,
-       &quot;      &lt;th&gt;0&lt;/th&gt;\n&quot;,
-       &quot;      &lt;td&gt;Andrew&lt;/td&gt;\n&quot;,
-       &quot;      &lt;td&gt;30&lt;/td&gt;\n&quot;,
-       &quot;    &lt;/tr&gt;\n&quot;,
-       &quot;    &lt;tr&gt;\n&quot;,
-       &quot;      &lt;th&gt;1&lt;/th&gt;\n&quot;,
-       &quot;      &lt;td&gt;Bob&lt;/td&gt;\n&quot;,
-       &quot;      &lt;td&gt;40&lt;/td&gt;\n&quot;,
-       &quot;    &lt;/tr&gt;\n&quot;,
-       &quot;    &lt;tr&gt;\n&quot;,
-       &quot;      &lt;th&gt;2&lt;/th&gt;\n&quot;,
-       &quot;      &lt;td&gt;Gilmor&lt;/td&gt;\n&quot;,
-       &quot;      &lt;td&gt;23&lt;/td&gt;\n&quot;,
-       &quot;    &lt;/tr&gt;\n&quot;,
-       &quot;  &lt;/tbody&gt;\n&quot;,
-       &quot;&lt;/table&gt;\n&quot;,
-       &quot;&lt;/div&gt;&quot;
-      ],
-      &quot;text/plain&quot;: [
-       &quot;     Name  Age\n&quot;,
-       &quot;0  Andrew   30\n&quot;,
-       &quot;1     Bob   40\n&quot;,
-       &quot;2  Gilmor   23&quot;
-      ]
-     },
-     &quot;execution_count&quot;: 8,
-     &quot;metadata&quot;: {},
-     &quot;output_type&quot;: &quot;execute_result&quot;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://adiell.github.io/fptest/feed.xml" rel="self" type="application/atom+xml" /><link href="https://adiell.github.io/fptest/" rel="alternate" type="text/html" /><updated>2020-03-20T03:11:13-05:00</updated><id>https://adiell.github.io/fptest/feed.xml</id><title type="html">Adiels pages</title><subtitle>Playground.</subtitle><entry><title type="html">Title</title><link href="https://adiell.github.io/fptest/search/forecast/2020/03/20/jup-post.html" rel="alternate" type="text/html" title="Title" /><published>2020-03-20T00:00:00-05:00</published><updated>2020-03-20T00:00:00-05:00</updated><id>https://adiell.github.io/fptest/search/forecast/2020/03/20/jup-post</id><content type="html" xml:base="https://adiell.github.io/fptest/search/forecast/2020/03/20/jup-post.html">&lt;!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-03-20-jup-post.ipynb
+--&gt;
+
+&lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
+        
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+
+&lt;/div&gt;
+    
+
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#matplotlib inline&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Name&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Andrew&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Bob&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Gilmor&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+                  &lt;span class=&quot;s2&quot;&gt;&amp;quot;Age&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]})&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+
+&lt;div class=&quot;output_html rendered_html output_subarea output_execute_result&quot;&gt;
+&lt;div&gt;
+&lt;style scoped=&quot;&quot;&gt;
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
     }
-   ],
-   &quot;source&quot;: [
-    &quot;df.head()&quot;
-   ]
-  },
-  {
-   &quot;cell_type&quot;: &quot;markdown&quot;,
-   &quot;metadata&quot;: {},
-   &quot;source&quot;: [
-    &quot;Wow that looks interesting&quot;
-   ]
-  },
-  {
-   &quot;cell_type&quot;: &quot;code&quot;,
-   &quot;execution_count&quot;: 11,
-   &quot;metadata&quot;: {},
-   &quot;outputs&quot;: [
-    {
-     &quot;data&quot;: {
-      &quot;text/plain&quot;: [
-       &quot;&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06bd428978&gt;&quot;
-      ]
-     },
-     &quot;execution_count&quot;: 11,
-     &quot;metadata&quot;: {},
-     &quot;output_type&quot;: &quot;execute_result&quot;
-    },
-    {
-     &quot;data&quot;: {
-      &quot;image/png&quot;: &quot;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\n&quot;,
-      &quot;text/plain&quot;: [
-       &quot;&lt;Figure size 432x288 with 1 Axes&gt;&quot;
-      ]
-     },
-     &quot;metadata&quot;: {
-      &quot;needs_background&quot;: &quot;light&quot;
-     },
-     &quot;output_type&quot;: &quot;display_data&quot;
+
+    .dataframe tbody tr th {
+        vertical-align: top;
     }
-   ],
-   &quot;source&quot;: [
-    &quot;df['Age'].plot.bar()&quot;
-   ]
-  },
-  {
-   &quot;cell_type&quot;: &quot;code&quot;,
-   &quot;execution_count&quot;: null,
-   &quot;metadata&quot;: {},
-   &quot;outputs&quot;: [],
-   &quot;source&quot;: []
-  }
- ],
- &quot;metadata&quot;: {
-  &quot;kernelspec&quot;: {
-   &quot;display_name&quot;: &quot;Python 3&quot;,
-   &quot;language&quot;: &quot;python&quot;,
-   &quot;name&quot;: &quot;python3&quot;
-  },
-  &quot;language_info&quot;: {
-   &quot;codemirror_mode&quot;: {
-    &quot;name&quot;: &quot;ipython&quot;,
-    &quot;version&quot;: 3
-   },
-   &quot;file_extension&quot;: &quot;.py&quot;,
-   &quot;mimetype&quot;: &quot;text/x-python&quot;,
-   &quot;name&quot;: &quot;python&quot;,
-   &quot;nbconvert_exporter&quot;: &quot;python&quot;,
-   &quot;pygments_lexer&quot;: &quot;ipython3&quot;,
-   &quot;version&quot;: &quot;3.6.9&quot;
-  }
- },
- &quot;nbformat&quot;: 4,
- &quot;nbformat_minor&quot;: 4
-}</content><author><name></name></author><summary type="html">{ &quot;cells&quot;: [ { &quot;cell_type&quot;: &quot;markdown&quot;, &quot;metadata&quot;: {}, &quot;source&quot;: [ &quot;# \&quot;Title\&quot;\n&quot;, &quot;&gt; \&quot;Interesting stuff\&quot;\n&quot;, &quot;- toc: true\n&quot;, &quot;- branch: master\n&quot;, &quot;- badges: true\n&quot;, &quot;- comments: true\n&quot;, &quot;- categories: [search, forecast]\n&quot;, &quot;- search_exclude: true\n&quot;, &quot;- metadata_key1: metadata_value1\n&quot;, &quot;- metadata_key2: metadata_value2&quot; ] }, { &quot;cell_type&quot;: &quot;code&quot;, &quot;execution_count&quot;: 6, &quot;metadata&quot;: {}, &quot;outputs&quot;: [], &quot;source&quot;: [ &quot;import pandas as pd\n&quot;, &quot;#matplotlib inline&quot; ] }, { &quot;cell_type&quot;: &quot;code&quot;, &quot;execution_count&quot;: 7, &quot;metadata&quot;: {}, &quot;outputs&quot;: [], &quot;source&quot;: [ &quot;df = pd.DataFrame({'Name': [\&quot;Andrew\&quot;, \&quot;Bob\&quot;, \&quot;Gilmor\&quot;],\n&quot;, &quot; \&quot;Age\&quot;: [30, 40, 23]})&quot; ] }, { &quot;cell_type&quot;: &quot;code&quot;, &quot;execution_count&quot;: 8, &quot;metadata&quot;: {}, &quot;outputs&quot;: [ { &quot;data&quot;: { &quot;text/html&quot;: [ &quot;\n&quot;, &quot;\n&quot;, &quot;\n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot; Name\n&quot;, &quot; Age\n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot; 0\n&quot;, &quot; Andrew\n&quot;, &quot; 30\n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot; 1\n&quot;, &quot; Bob\n&quot;, &quot; 40\n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot; 2\n&quot;, &quot; Gilmor\n&quot;, &quot; 23\n&quot;, &quot; \n&quot;, &quot; \n&quot;, &quot;\n&quot;, &quot;&quot; ], &quot;text/plain&quot;: [ &quot; Name Age\n&quot;, &quot;0 Andrew 30\n&quot;, &quot;1 Bob 40\n&quot;, &quot;2 Gilmor 23&quot; ] }, &quot;execution_count&quot;: 8, &quot;metadata&quot;: {}, &quot;output_type&quot;: &quot;execute_result&quot; } ], &quot;source&quot;: [ &quot;df.head()&quot; ] }, { &quot;cell_type&quot;: &quot;markdown&quot;, &quot;metadata&quot;: {}, &quot;source&quot;: [ &quot;Wow that looks interesting&quot; ] }, { &quot;cell_type&quot;: &quot;code&quot;, &quot;execution_count&quot;: 11, &quot;metadata&quot;: {}, &quot;outputs&quot;: [ { &quot;data&quot;: { &quot;text/plain&quot;: [ &quot;&quot; ] }, &quot;execution_count&quot;: 11, &quot;metadata&quot;: {}, &quot;output_type&quot;: &quot;execute_result&quot; }, { &quot;data&quot;: { &quot;image/png&quot;: &quot;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\n&quot;, &quot;text/plain&quot;: [ &quot;&quot; ] }, &quot;metadata&quot;: { &quot;needs_background&quot;: &quot;light&quot; }, &quot;output_type&quot;: &quot;display_data&quot; } ], &quot;source&quot;: [ &quot;df['Age'].plot.bar()&quot; ] }, { &quot;cell_type&quot;: &quot;code&quot;, &quot;execution_count&quot;: null, &quot;metadata&quot;: {}, &quot;outputs&quot;: [], &quot;source&quot;: [] } ], &quot;metadata&quot;: { &quot;kernelspec&quot;: { &quot;display_name&quot;: &quot;Python 3&quot;, &quot;language&quot;: &quot;python&quot;, &quot;name&quot;: &quot;python3&quot; }, &quot;language_info&quot;: { &quot;codemirror_mode&quot;: { &quot;name&quot;: &quot;ipython&quot;, &quot;version&quot;: 3 }, &quot;file_extension&quot;: &quot;.py&quot;, &quot;mimetype&quot;: &quot;text/x-python&quot;, &quot;name&quot;: &quot;python&quot;, &quot;nbconvert_exporter&quot;: &quot;python&quot;, &quot;pygments_lexer&quot;: &quot;ipython3&quot;, &quot;version&quot;: &quot;3.6.9&quot; } }, &quot;nbformat&quot;: 4, &quot;nbformat_minor&quot;: 4 }</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://adiell.github.io/fptest/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://adiell.github.io/fptest/jupyter/2020/02/20/test</id><content type="html" xml:base="https://adiell.github.io/fptest/jupyter/2020/02/20/test.html">&lt;!--
+
+    .dataframe thead th {
+        text-align: right;
+    }
+&lt;/style&gt;
+&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;0&lt;/th&gt;
+      &lt;td&gt;Andrew&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;40&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;td&gt;Gilmor&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+&lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
+&lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
+&lt;p&gt;Wow that looks interesting&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    
+    
+&lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
+&lt;div class=&quot;input&quot;&gt;
+
+&lt;div class=&quot;inner_cell&quot;&gt;
+    &lt;div class=&quot;input_area&quot;&gt;
+&lt;div class=&quot; highlight hl-ipython3&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Age&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;output_wrapper&quot;&gt;
+&lt;div class=&quot;output&quot;&gt;
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+
+
+&lt;div class=&quot;output_text output_subarea output_execute_result&quot;&gt;
+&lt;pre&gt;&amp;lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06bd428978&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;output_area&quot;&gt;
+
+
+
+&lt;div class=&quot;output_png output_subarea &quot;&gt;
+&lt;img src=&quot;data:image/png;base64,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
+&quot; /&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://adiell.github.io/fptest/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://adiell.github.io/fptest/jupyter/2020/02/20/test</id><content type="html" xml:base="https://adiell.github.io/fptest/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
