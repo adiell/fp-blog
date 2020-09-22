@@ -7,7 +7,7 @@
 
 # My Blog
 
-https://adiell.github.io/fptest/
+https://adiell.github.io/fp-blog/ 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
 
